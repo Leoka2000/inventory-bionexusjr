@@ -1,0 +1,351 @@
+
+.consumables-section {
+    padding: 3rem 0 10rem 0;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+}
+.consumables-form-information {
+ 
+  background-color: rgba(174, 204, 176, 0.4);
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+padding: 3rem 3rem 3rem 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align:start;
+  gap: 1.5rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icons-wrapper {
+display: flex;
+flex-direction: row-reverse;
+width: 100%;
+
+justify-content: space-between;
+align-items: center;
+
+}
+.icons-wrapper > p {
+  color: rgb(62, 168, 94);
+  font-size: 2rem;
+  font-weight: 900;
+  
+  font-family: 'Roboto Slab', sans-serif;
+    font-weight: 900;
+ 
+  }
+
+.icons-wrapper > span {
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  border-radius: 100%;
+  color: rgb(62, 168, 94);
+  background-color: rgba(174, 204, 176, 0.4);
+}
+.consumables-form-row {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+.consumables-form-row > fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.3rem;
+  margin-bottom: 0.7rem;
+  color: rgb(39, 39, 39);
+}
+.consumables-form-row > fieldset > input {
+  padding: 0.5rem;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: #eeeeee;
+  color: rgb(24, 24, 24);
+  font-family: 'Mukta', sans-serif;
+  border-radius: 3px;
+  outline: none;
+}
+.button-wrapper {
+  display: flex;
+ justify-content: space-between;
+ width: 100%;
+  margin-top: 2rem;
+}
+.button-wrapper > button {
+    padding: 1rem;
+    height: 3rem;
+    border: 5px;
+    width: 9rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    border: 1px dotted green;
+    color: green;;
+    border-radius: 12px;
+    display: flex;
+   gap: 0.5rem;
+    align-items: center;
+    background-color: #eeeeee;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button-wrapper > button:hover {
+  background-color: rgb(61, 155, 61, 0.2);
+  transform: scale(1.05);
+}
+.button-wrapper > button > svg {
+  font-size: 1.2rem;
+}
+.button-wrapper > button > p {
+ font-size: 0.9;
+}
+
+main {
+  display: flex;
+  margin-top: 5rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+.list-parent {
+  width: 30rem;
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px;
+  transition: 0.2s;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  
+  
+}
+.list-parent:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list-individual-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+  border-bottom: 1px dotted grey;
+  padding-bottom: 0.5rem;
+}
+.input-box  {
+  display: flex;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.input-box > input {
+  outline: none;
+  padding: 0.3rem;
+  height: 2rem;
+background-color: #eeeeee;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 4px;
+ 
+}
+
+.text-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+ 
+  
+}
+
+.text-wrapper > p {
+  color: green;
+  text-align: end;
+  width: 70%;
+}
+
+.input-box > button {
+  padding: 0.5rem;
+  border: 5px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(126, 129, 126);
+  border-radius: 6px;
+  background-color: rgb(62, 168, 94, 0.8);
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+.input-box > button:hover {
+  background-color: rgb(62, 168, 94);
+transform: scale(1.05);
+}
+.delete-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.delete {
+  background-color: rgb(255, 0, 0, 0.5);
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 1rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+  color: rgb(8, 8, 8);
+  
+}
+.input-box > input {
+  color: rgb(8, 8, 8);
+}
+.delete:hover {
+  background-color: rgb(180, 51, 51);
+  transform: scale(1.05);
+  
+  
+}
+.swal2-title {
+  font-family: 'Mukta', sans-serif;
+}
+.column-error {
+  display: flex;
+  flex-direction: column;
+}
+.swal2-html-container {
+  font-family: 'Mukta', sans-serif;
+}
+
+.swal2-styled {
+  width: 5rem;
+  font-family: 'Mukta', sans-serif;
+ display: flex;
+ padding: 0.2rem;
+}
+
+
+/* Styling for the select element */
+.error-message {
+  color: red;
+}
+.dropdown {
+  margin-top: 2rem;
+  color: rgb(12, 12, 12);
+}
+select {
+cursor: pointer;
+display: flex;
+height: 2.5rem;
+padding-left: .5rem;
+align-items: center;
+
+  font-size: 13px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  font-family: 'Mukta', sans-serif;
+}
+
+/* Styling for the select element when focused */
+select:focus {
+  border-color: rgb(62, 168, 94);
+}
+
+/* Styling for the dropdown arrow */
+select::-ms-expand {
+  display: none;
+}
+
+select::-webkit-select-placeholder {
+  color: #aaa;
+}
+
+select::placeholder {
+  color: #aaa;
+}
+
+/* Styling for the options within the dropdown */
+option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Styling for the first (default) option */
+option:first-of-type {
+  color: #aaa;
+}
+
+/* Styling for the selected option */
+option:checked {
+  background-color: rgb(62, 168, 94);
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .consumables-form-information {
+    padding: 2rem;
+    width: 39rem;
+  }
+  .consumables-form-row {
+    flex-direction: column;
+  }
+  
+
+  }
+@media only screen and (max-width: 686px) {
+  .icons-wrapper > p {
+    color: rgb(62, 168, 94);
+    font-size: 1.3rem;
+   
+   
+    }
+    .button-wrapper > button {
+      width: 9rem;
+      font-size: 0.9rem;
+      height: 3rem;
+  }
+  .button-wrapper  {
+  flex-direction: column;
+align-items: center;
+  justify-content: center;
+  }
+  .list-parent {
+    font-size: 0.8rem;
+    padding: 2rem 1.2rem 2rem 1.2rem;
+  }
+
+    .consumables-form-information {
+      width: 94%;
+    }
+    .consumables-form-row {
+      flex-direction: column;
+    }
+  
+  .icons-wrapper > span {
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    border-radius: 100%;
+    color: rgb(62, 168, 94);
+    background-color: rgba(174, 204, 176, 0.4);
+  }
+  
+
+  }

@@ -1,0 +1,103 @@
+.hero-section {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+.hero-section > a {
+  
+   width: 17rem;
+   height: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   gap: 1rem;
+padding: 0.5rem;
+border-radius: 5px;
+cursor: pointer;
+border: 2px solid rgb(62, 168, 94);
+background-color: rgba(174, 204, 176, 0.4);
+font-family: 'Roboto Slab', sans-serif;
+transition: 0.15s;
+
+}
+.hero-section > a:hover {
+    background-color: rgba(174, 204, 176, 1);
+}
+
+  
+.hero-section > a > p {
+    color: rgb(243, 243, 243);
+    color: rgb(62, 168, 94);
+    font-size: 1.2rem;
+    
+    
+}
+.hero-section > a > span {
+    color: rgb(62, 168, 94);
+    font-size: 2.6rem;
+    
+}
+
+.sidebar {
+    position: fixed;
+    top: 11rem;
+    left: 0;
+    width: 50px;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    z-index: 999;
+    gap: 2rem;
+    border-bottom-right-radius: 6px;
+    padding-top: 0.4rem;
+    border-top-right-radius: 6px;
+  }
+  
+  .sidebar a {
+   
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding-right: 0.25rem;
+  }
+  
+  .sidebar a:hover {
+    transform: scale(1.2);
+    color: #50A060;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .sidebar {
+      width: 31px;
+    }
+    .sidebar a {
+      font-size: 18px;
+    }
+
+    .hero-section > a {
+      width: 13rem;
+      height: 4rem;
+    }
+    .hero-section > a > p {
+      color: rgb(243, 243, 243);
+      color: rgb(62, 168, 94);
+      font-size: 1rem;
+      
+      
+  }
+  .hero-section > a > span {
+      color: rgb(62, 168, 94);
+      font-size: 2rem;
+      
+  }
+    }
