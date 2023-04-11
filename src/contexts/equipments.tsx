@@ -255,7 +255,6 @@ const updateMaintenanceSchedule = (id: number) => {
       confirmButtonText: 'Delete',
       confirmButtonColor: 'red',
       cancelButtonText: 'Cancel',
-     
       reverseButtons: true
     }).then((result) => {
       if (result.isConfirmed) {
@@ -338,7 +337,7 @@ const updateMaintenanceSchedule = (id: number) => {
     equipmentList,
     setQuantity,
     setNewQuantity}
-    
+    // passing state variables and functions through React's Context API
   return (
     <>
     <EquipmentContext.Provider value={values}>

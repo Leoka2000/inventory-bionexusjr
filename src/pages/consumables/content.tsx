@@ -21,13 +21,11 @@ const Content: React.FC<Props> = ({ data, keyNumber, id }: Props) => {
   const { setNewQuantity, updateConsumableQuantity, setNewNotes, updateConsumableNotes, deleteConsumables } = useContext<ConsumablesContextType>(ConsumablesContext);
   const [quantityError, setQuantityError] = useState(false);
  
-
-
-
   const handleQuantityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setNewQuantity(event.target.value);
     setQuantityError(isNaN(event.target.value));
   };
+  
   return (
     <div key={keyNumber} className="list-parent">
       <div className='list-wrapper'>

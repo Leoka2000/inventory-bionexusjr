@@ -39,7 +39,7 @@ const Equipments = () => {
         .then((response) => {
           setEquipmentList(response.data);
           setLoading(false);
-          
+
         })
         .catch((error) => {
           console.log(error);
@@ -48,7 +48,7 @@ const Equipments = () => {
     }, 1000);
   };
 
-  // With these changes, your Equipments component should now display the loading screen for 2 seconds before displaying the equipment list.
+ 
 
 
 
@@ -93,25 +93,25 @@ const Equipments = () => {
           </fieldset>
         </div>
         <div className='equipments-form-row'>
-        <fieldset>
+          <fieldset>
             <label>Maintenance schedule</label>
             <input onChange={(event) => { setMaintenanceSchedule(event.target.value) }} type='text'></input>
           </fieldset>
-         
+
           <fieldset>
             <label>Quantity</label>
             <input onChange={(event) => { setQuantity(event.target.value) }} type='text'></input>
           </fieldset>
         </div>
         <div className='equipments-form-row'>
-        <fieldset>
-        <label>Status</label>
+          <fieldset>
+            <label>Status</label>
             <select onChange={(event) => { setStatus(event.target.value) }}>
               <option value="">Status?</option>
               <option value="In maintenance">In maintenance</option>
               <option value="In use">In use</option>
             </select>
-            </fieldset>
+          </fieldset>
         </div>
         <div className='equipments-form-row'>
           <fieldset>
@@ -137,7 +137,7 @@ const Equipments = () => {
 
           <main>
             {equipmentList.filter((val) => filterType === '' || val.status === filterType).map((val, key) => {
-            return <Content data={val} keyNumber={key} id={val.id} />
+              return <Content data={val} keyNumber={key} id={val.id} />
             })}
           </main>
         )}</Suspense>

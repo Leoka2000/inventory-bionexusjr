@@ -284,7 +284,7 @@ export const EmployeeProvider = ({ children }: EmployeeProviderProps) => {
     updateEmployeeWage,
     addEmployee,
   };
-
+// passing state variables and functions through React's Context API
   return (
     <EmployeeContext.Provider value={values}>
       {children}

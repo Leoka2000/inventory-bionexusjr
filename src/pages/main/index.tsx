@@ -5,7 +5,7 @@ import { AiOutlineLink } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
 import './hero/hero.css'
 
-function Index () {
+const Index = () => {
   return (
     <div className='home-wrapper'>
       <div className='sidebar'>
@@ -13,7 +13,7 @@ function Index () {
         <a href='https://www.instagram.com/bionexusjr/' target='_blank'><BsInstagram /></a>
         <a href='https://linktr.ee/bionexus' target='_blank'><AiOutlineLink /></a>
       </div>
-      <Hero/>
+      <Hero />
     </div>
   );
 }

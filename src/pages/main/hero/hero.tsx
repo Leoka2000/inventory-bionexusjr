@@ -8,18 +8,18 @@ import { BsPersonCircle } from 'react-icons/bs';
 const Hero: React.FC = () => {
   return (
     <section className='hero-section'>
-      <Link style={{textDecoration: 'none'}} to='/consumables'>
-        <span><FaToolbox/></span>
+      <Link style={{ textDecoration: 'none' }} to='/consumables'>
+        <span><FaToolbox /></span>
         <p>CONSUMABLES</p>
-      </Link> 
-      <Link style={{textDecoration: 'none'}} to='/equipments'>
-        <span><FaTools/></span>
+      </Link>
+      <Link style={{ textDecoration: 'none' }} to='/equipments'>
+        <span><FaTools /></span>
         <p>EQUIPMENTS</p>
-      </Link> 
-      <Link style={{textDecoration: 'none'}} to='/employees'>
-        <span><BsPersonCircle/></span>
+      </Link>
+      <Link style={{ textDecoration: 'none' }} to='/employees'>
+        <span><BsPersonCircle /></span>
         <p>EMPLOYEES</p>
-      </Link> 
+      </Link>
     </section>
   );
 };

@@ -10,7 +10,7 @@ import {BiMessageAltAdd} from 'react-icons/bi'
 
 
 
-function Employees() {
+const Employees = () => {
   const [filterType, setFilterType] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
  
@@ -35,7 +35,6 @@ function Employees() {
           .then((response) => {
             setEmployeeList(response.data);
             setLoading(false);
-            
           })
           .catch((error) => {
             console.log(error);
@@ -43,11 +42,6 @@ function Employees() {
           });
       }, 1000);
     };
-
-
-   
-
-    
 
     const handleFilter = (type: string) => {
       setFilterType(type);

@@ -19,7 +19,6 @@ function RootRoutes() {
           <Route path='/' element={<Home />} />
           <Route path='employees/' element={<Employees />} />
           <Route path='consumables/' element={<Consumables />} />
-          
           <Route path='equipments/' element={<Equipments/>} />
        
         </Routes>

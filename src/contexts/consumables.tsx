@@ -102,7 +102,7 @@ export const ConsumablesContextProvider = ({ children }: ConsumablesProviderProp
   const addConsumable = () => {
     try {
       if (isNaN(quantity)) {
-        throw new Error('quantity should be a number');
+        throw new Error('Quantity should be a number');
       }
       
     Axios.post("https://bionexusjr.herokuapp.com/consumables/create", {
@@ -275,7 +275,7 @@ const deleteConsumables = (id: number) => {
     setConsumablesList,
     quantity,
   };
-
+// passing state variables and functions through React's Context
   return (
     <ConsumablesContext.Provider value={values}>
       {children}
