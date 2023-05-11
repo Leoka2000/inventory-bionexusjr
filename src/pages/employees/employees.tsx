@@ -89,8 +89,9 @@ const Employees = () => {
   <option className='dropdown-content' value="Chief Marketing Officer">Chief Marketing Officer</option>
   <option className='dropdown-content' value="Chief Human Development Officer">Chief Human Development Officer</option>
   <option className='dropdown-content' value="Chief Research Officer">Chief Research Officer</option>
-  <option className='dropdown-content' value="Chief Financial Officer">Chief Financial Officer / Chief Commercial Officer</option>
+  <option className='dropdown-content' value="Chief Financial Officer">Chief Financial Officer</option>
   <option className='dropdown-content' value="Chief Commercial Officer">Chief Commercial Officer</option>
+  <option className='dropdown-content' value="Chief Project Officer">Chief Project Officer</option>
   </select>
 
   <Suspense fallback={<BeatLoader />}> 

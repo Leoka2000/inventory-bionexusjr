@@ -202,7 +202,7 @@ option {
 @media only screen and (max-width: 1024px) {
   .employee-information {
     padding: 2rem;
-    width: 39rem;
+    width: 33rem;
   }
   .employee-form-row {
     flex-direction: column;
