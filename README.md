@@ -5,7 +5,7 @@
 
 **Client:** React, TypeScript, React-Router-DOM
 
-**Server:** Node, Express, CORS, mySQL
+**Server:** Node, Express, CORS, MySQL
 
 
 ## Used By
