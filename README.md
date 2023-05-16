@@ -57,7 +57,7 @@ This project was built with the intention of optimizing the organization and man
 
 <img src="./src/assets/carbonDelete.png" style="width: 500px">
 
-- This function sends an HTTP request to the MySQL database to remove an employee from a list, by taking the employee's ID as an argument. If the request is successfull, it shows a pop-up using the Swal library to confirm if the user really wants to delete the employee. It also
+- This function sends a DELETE HTTP request to the MySQL database to remove an employee from a list, by taking the employee's ID as an argument. If the request is successfull, it shows a pop-up using the Swal library to confirm if the user really wants to delete the employee. It also
 
  - displays a success message if the user decides to delete. If the user clicks "Cancel", it displays a cancellation message.
 
